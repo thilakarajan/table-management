@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.header img {
+  height: 60px;
+  margin: 0px 0px 0px 20px;
+}
+.header li {
+  list-style: none;
+}
+.header a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: large;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(34, 34, 139);
+  height: 80px;
+}
+.image {
+  height: 80vh;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
+.aboutus {
+  padding: 20px;
+}
+.aboutus h2 {
+  text-align: center;
+  padding: 10px;
+}
+.aboutus_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aboutus_content p {
+  text-align: justify;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutus_content img {
+  height: 30vh;
+  padding: 50px;
+}
+.services {
+  text-align: end;
+}
+.services .images {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.services img {
+  height: 30vh;
+}
+.services h2 {
+  text-align: center;
+}
+.services .arr {
+  text-align: center;
+  color: black;
+  font-size: x-large;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.contactus {
+  text-align: center;
+  padding: 40px;
+}
+.contactus h2 {
+  font-size: x-large;
+  padding: 30px;
+}
+.contactus form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactus span {
+  padding: 20px;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+button {
+  padding: 10px 30px;
+  transition: 0.5s;
+  border-radius: 5px;
+  border-color: azure;
+}
+button:hover {
+  background-color: brown;
+}
+a:hover {
+  color: yellow;
+}
+a:active{
+    color: blue;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+@media (min-width: 375px) and (max-width: 600px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 40px;
+  }
+  .header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 300px;
+}
+  .header a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: small;
+}
+  .header img {
+  height: 40px;
+  margin: 0px;
+}
+  .logo {
+    margin-left: 0px;
+  }
+  .image{
+    height: auto;
+  }
+  .aboutus_content{
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus_content p{
+    padding: 20px;
+    text-align: justify;
+  }
+  .services .images{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services img{
+    width: 20vw;
+    height: auto;
+  }
+  .services .arr{
+    font-size: medium;
+    padding: 0px 10px 0px 0px;
+  }
+  .contactus h2{
+    padding: 0px 10px 10px 10px;
+  }
+  .contactus span {
+  padding: 10px;
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 75vw;
+}
+  .contactus form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0px;
+  height: 48vh;
+}
+  .btn {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 250px;
+
+}
+}

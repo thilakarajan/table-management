@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.top ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.top li{
+    padding: 0px 10px;
+}
+.top{
+    background-color: rgb(220, 33, 33);
+    padding: 10px;
+    padding-right: 190px;
+}
+.top a{
+    
+    color: beige;
+}
+.top-middle ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    font-size: large;
+    margin-right: 40px;
+}
+.top-middle li{
+    padding: 0px 10px;
+}
+.top-middle{
+    padding: 10px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-middle a{
+    color: antiquewhite;
+}
+
+.mark marquee{
+    padding: 10px;
+    background-color: antiquewhite;
+    font-size: large;
+}
+.mark{
+    margin: 0%;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.middle h1{
+    padding:5vh 5vw;
+    background-color: brown;
+    color: aliceblue;
+}
+
+label{
+    font-size: xx-large;
+    
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: inset;
+
+}
+.middle button{
+    background-color: orange;
+    padding: 20px 30px;
+    border-style: none;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.middle select{
+    padding: 10px;
+    border-radius: 5px;
+}
+.first{
+    color:orange;
+}
