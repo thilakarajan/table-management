@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  margin-right: 30px;
+}
+
+li {
+  display: inline;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.a-logo {
+  margin-left: 20px;
+  height: 100px;
+}
+
+.logo {
+  height: 100px;
+  padding: 0px;
+}
+
+a:hover {
+  color: black;
+  background-color: bisque;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  padding: 5vh 10vw;
+  line-height: 4vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  height: 28vh;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form div input {
+  width: 43%;
+}
+
+form input,
+textarea {
+  padding: 10px 30px;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+}
+
+footer {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.social i {
+  padding: 0px 10px;
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@media (min-width:344px) and (max-width:600px){
+    ul{
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.a-logo {
+  margin-left: 5px;
+  height: 70px;
+}
+.logo {
+  height: 70px;
+  padding: 0px;
+}
+ul li a {
+  font-size: smaller;
+}
+.content {
+  padding: 2vh 5vw;
+  line-height: 4vh;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+   bottom: 0;
+   right: 0;
+}
+footer p,.social{
+    display: flex;
+    flex-wrap: nowrap;
+}
+form {
+  height: 32vh;
+}
+form div input {
+  width: 30%;
+}
+}
